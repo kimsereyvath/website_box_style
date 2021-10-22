@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+}
+
+.header{
+    top: 0px;
+    height: 50px;
+    position: sticky;
+    background-color: green;
+}
+
+.body{
+    height: 100%;
+    position: static;
+    height: 1000px;
+    background-color: white;
+}
+
+.body > div{
+    float: left;
+}
+
+.content{
+    width: 80%;
+    height: 100%;
+    background-color: blue;
+}
+
+.ads{
+    width: 20%;
+    height: 100%;
+    background-color: red;
+}
+
+.footer{
+    bottom: 0px;
+    height: 50px;
+    position: sticky;
+    background-color: yellow;
+}
